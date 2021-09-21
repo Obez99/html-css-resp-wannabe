@@ -1,6 +1,6 @@
 @media screen and (max-width: 420px){
   .row, .container{
-    width:420px;
+    width: auto;
   }
 
   #lezioni .row>.left, #lezioni .row>.right {
@@ -10,6 +10,7 @@
 
   #steps .row>.left, #steps .row>.central, #steps .row>.right{
     width:auto;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
   }
+
 }
