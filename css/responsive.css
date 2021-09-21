@@ -5,9 +5,11 @@
 
   #lezioni .row>.left, #lezioni .row>.right {
     width:auto;
+    margin-bottom:20px;
   }
 
   #steps .row>.left, #steps .row>.central, #steps .row>.right{
     width:auto;
+    margin-bottom: 50px;
   }
 }
