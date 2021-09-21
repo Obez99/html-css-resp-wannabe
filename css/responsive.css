@@ -4,21 +4,37 @@
   }
 }
 
+@media screen and (max-width: 768px){
+  #lezioni .row>.left, #lezioni .row>.right {
+     width:100%;
+     margin-bottom:20px;
+    }
+    #steps .row>.left, #steps .row>.central, #steps .row>.right{
+    margin-bottom: 80px;
+    float:none;
+  }
 
+  #steps .row{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  #steps .row .left,.central,.right{
+    flex-basis:50%;
+  }
+
+  #steps .row h1{
+    width:100%;
+  }
+
+}
 
 @media screen and (max-width: 420px){
-  .row, .container{
-    width: auto;
-  }
-
-  #lezioni .row>.left, #lezioni .row>.right {
-    width:auto;
-    margin-bottom:20px;
-  }
-
+  
   #steps .row>.left, #steps .row>.central, #steps .row>.right{
-    width:auto;
-    margin-bottom: 80px;
+    width:100%;
   }
 
   #lezioni .row{
